@@ -1,186 +1,195 @@
-<!doctype html> 
+<!DOCTYPE html>
 
+<html lang="en-us">
 
- 
-<html lang="en-us"> 
+  <head>
 
 
- 
 
+    <meta charset="UTF-8">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
- 
-<head> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 
-  <meta charset="UTF-8"> 
 
+    <title>Bootstrap Basic Portfolio</title>
 
- 
- <title>About | Your Name</title> 
 
 
- 
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> 
 
 
- 
- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
 
 
- 
-</head> 
 
 
- 
+    <link rel="stylesheet" href="assets/css/styles.css" media="screen">
 
 
 
- 
-<body> 
+  </head>
 
 
- 
 
+  <body>
 
- 
- <header id="masthead"> 
+  
 
+    <nav class="navbar navbar-default">
 
- 
-   <div class="container"> 
+      <div class="container-fluid navbar-custom">
 
 
- 
-     <a href="index.html" id="logo">Your Name</a> 
 
+       
 
- 
-    <nav> 
+        <div class="row">
 
+          <div class="navbar-header">
 
- 
-       <a href="index.html">About</a> 
-     <a href="portfolio.html">Portfolio</a> 
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 
+              <span class="sr-only">Toggle navigation</span>
 
- 
-    <a href="contact.html">Contact</a> 
+              <span class="icon-bar"></span>
 
+              <span class="icon-bar"></span>
 
- 
-    </nav> 
+              <span class="icon-bar"></span>
 
+            </button>
 
- 
-   </div> 
+            <div class="col-xs-12 phone-nav">
 
+              <a class="navbar-brand" href="#" id="logo">Your Name</a>
 
- 
-  </header> 
+            </div>
 
+          </div>
 
- 
 
 
+          <!-- Collect the nav links, forms, and other content for toggling -->
 
-   <div id="main-container" class="container"> 
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
+            <ul class="nav navbar-nav navbar-right navbar-right-custom">
 
-    <section class="main-section"> 
+              <li><a href="contact.html">Contact</a></li>
 
+              <li><a href="portfolio.html">Portfolio</a></li>
 
-      <h1>About Me</h1> 
+              <li><a href="index.html">About</a></li>
 
+            </ul>
 
- 
+          </div>
 
+        </div>
 
+      </div>
+    </nav>
 
- 
-     <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name"> 
+   
+    <div class="wrap">
 
+      <div class="container">
 
- 
+        <section class="row">
 
+          <div class="col-md-8">
 
+            <article class="about-me-content">
 
- 
-     <p>cool stuff</p> 
+              <h1 class="about-me-header">About Me</h1>
 
+              <hr class="about-me-hr"/>
 
- 
+              <img src="assets/imgs/natebeach.jpeg" alt="" id="nate-image"/>
 
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
+              <br />
 
- 
-    <p>kittens</p> 
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
+            </article>
 
- 
+          </div>
 
+          <div class="col-md-4">
 
 
- 
-    </section> 
 
+            
 
- 
+            <section id="connect-with-me-area">
 
+              <div class="connect-with-me-content">
 
- 
-  <section class="sidebar"> 
+                <h1 class="connect-with-me-header">Connect With Me</h1>
 
+                <hr />
 
- 
-    <div id="connect"> 
+                <div id="images">
 
+                  <img src="assets/imgs/github.png" alt="" class="connect-with-me-photo">
 
- 
-      <h2>Connect with Me</h2> 
+                  <img src="assets/imgs/linkedin.png" alt="" class="connect-with-me-photo">
 
+                  <img src="assets/imgs/stackover2.png" alt="" class="connect-with-me-photo">
 
- 
+                </div>
 
+              </div>
 
+            </section>
 
- 
-       <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a> 
+            
 
+          </div>
 
- 
-       <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a> 
+        </section>
 
+      </div>
 
-        <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a> 
+    </div>
 
+   
 
- 
-     </div> 
 
+   
 
- 
-    </section> 
+    <footer class="footer">
 
- </div> 
+      <div class="two-toned-footer-color"></div>
 
+      <p class="text-muted text-muted-footer text-center">
 
- 
+        &copy; Copyright Rutgers Coding Bootcamp 2016
 
+      </p>
 
+    </footer>
 
- 
- <footer> 
-  <div class="container"> 
+   
 
 
- 
-   Copyright &copy; 2016 Your Name 
 
+    
 
- 
-   </div> 
- </footer> 
-</body> 
-</html>  
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 
+
+
+   
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  </body>
+
+
+
+</html>
